@@ -9,11 +9,8 @@ export default function Header() {
           <div className="w-8 h-8 bg-safety-orange rounded flex items-center justify-center">
             <Wrench size={18} className="text-white" />
           </div>
-          <span className="font-bold text-lg tracking-tight hidden sm:block">
+          <span className="font-bold text-lg tracking-tight">
             LOUIS’S <span className="text-safety-orange">WORKSHOP</span>
-          </span>
-          <span className="font-bold text-lg tracking-tight sm:hidden">
-            LMW
           </span>
         </div>
 
