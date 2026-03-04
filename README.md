@@ -1,11 +1,31 @@
-<div align="center">
+# Louis’s Mobile Workshop Landing Page
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A high-performance, mobile-first landing page for a mobile mechanic service.
 
-  <h1>Built with AI Studio</h2>
+## Tech Stack
+- **Framework:** React + Vite
+- **Styling:** Tailwind CSS (v4)
+- **Animations:** Motion (formerly Framer Motion)
+- **Icons:** Lucide-react
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Features
+- **Sticky Navigation:** Quick access to "Call Now".
+- **Hero Section:** High-impact value proposition.
+- **Meet Your Mechanic:** Trust-building personal section.
+- **Service Cards:** Clear breakdown of offerings with pricing.
+- **Trust Block:** Social proof and referral statistics.
+- **Booking Form:** Interactive lead generation form.
+- **Responsive Design:** Optimized for all screen sizes with a mobile-first approach.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment to Vercel
+1. Push this code to a GitHub repository.
+2. Connect the repository to Vercel.
+3. Vercel will automatically detect the Vite configuration.
+4. Set the build command to `npm run build` and output directory to `dist`.
+5. Deploy!
 
-</div>
+## Local Development
+```bash
+npm install
+npm run dev
+```
